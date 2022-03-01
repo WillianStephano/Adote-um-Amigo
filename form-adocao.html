@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Adote um amigo</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="shortcut icon" href="Conteudo/pata.svg" type="image/x-icon"> <!-- Adiciona icone ao title -->
+
+   <!-- LINKS CSS -->
+   <link rel='stylesheet' type='text/css' media='screen' href='CSS/reset.css'>
+   <link rel="stylesheet" href="CSS/header.css">
+   <link rel="stylesheet" href="CSS/adocao.css">
+   <link rel="stylesheet" href="CSS/rodape.css">
+   <link rel="stylesheet" href="CSS/responsivo.css">
+
+   
+   <!-- LINKS FONTES -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <header class="cabecalho">
+      <div class="container-cabecalho">
+         
+         <div class="logo">
+            <img class="img-cabecalho" src="Conteudo/pata.svg" alt="">
+            <h2 class="texto-logo">Adote um amigo</h2>
+         </div>
+         
+         <nav class="menu-nav">
+            <ul class="lista-menu-nav">
+               <li class="item-menu-nav"> <a href="home.html">Inicio</a></li>
+               <li class="item-menu-nav"> <a href="form-adocao.html">Adoção</a></li>
+               <li class="item-menu-nav"> <a href="sobre-nos.html">Sobre nos</a></li>
+            </ul>
+         </nav>
+      </div>   
+   </header>
+   
+   
+   <main class="conteudo-P-adocao">
+      
+      <section class="primeira-sessao">
+         <h1 class="titulo-P-adocao">Adote um amigo</h1>
+         
+         <p class="texto-adocao">Usce sit amet dignissim lorem, sed porttitor lectus. Proin volutpat enim
+            a sapien elementum tincidunt. Donec egestas mi at eros vehicula, vel rhoncus velit mattis.
+            Mauris at sapien eu arcu luctus pretium ut ut orci. Donec odio leo, interdum sed augue quis,
+            mpor posuere metus.
+         </p>
+      </section>
+      
+      <section class="form-sessao">
+         <form class="formulario" action="">
+            
+            <legend class="titulo-form">Formulario de adoção</legend>
+            
+            <label class="label-form" for="nome">Seu nome</label>
+            <input class="campo" id="nome"type="text" placeholder="Nome completo" required>
+            
+            <label class="label-form" for="idade">Idade</label>
+            <input class="campo" id="idade"type="number" placeholder="Sua idade" required>
+            
+            <label class="label-form" for="tel">Telefone</label>
+            <input class="campo" id="tel" type="tel" placeholder="(xx) xxxx-xxxx" required>
+            
+            <label class="label-form" for="cel">Celular</label>
+            <input class="campo" id="cel" type="tel" placeholder="(xx) xxxxx-xxxx" required>
+            
+            <label class="label-form" for="email">Email</label>
+            <input class="campo" id="email" type="email" placeholder="email@dominio.com" required>
+            
+            
+            <fieldset class="grupo-especie">
+               <legend class="titulo-especie">Caso ja tenha um escolhido para adoção selecione a opção correspondente e 
+                  insira o nome dele:
+               </legend>
+               
+         
+               <label class="label-especie" for="gato">
+                  <input id="gato" type="radio" name="especie">Gato
+               </label>      
+               
+               <label class="label-especie" for="cachorro"> 
+                  <input id="cachorro" type="radio" name="especie">Cachorro
+               </label>
+               
+               <label class="label-form-especie" for="pet-nome">Nome do pet</label>
+               <input class="campo" id="pet-nome" type="text" placeholder="Nome do pet">
+            </fieldset>
+
+            <input class="bt-enviar" type="submit" value="Enviar">
+            
+         </form>
+      </section>
+      
+   </main>
+
+   <footer class="rodape">
+      <h4 class="texto-rodape"> &copy;Todos os direitos reservados</h4>
+   </footer>
+   
+   
+</body>
+</html>

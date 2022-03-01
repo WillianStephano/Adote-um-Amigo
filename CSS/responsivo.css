@@ -1,0 +1,136 @@
+/* ###### CABECALHO ##### */
+@media (max-width:425px) {
+   
+   .container-cabecalho{
+      flex-direction: column;
+      width: 100%;
+   }
+   
+   .logo{
+      justify-content: space-between;
+      width: 100%;
+   }
+
+   .menu-nav{
+      width: 100%;
+   }
+   
+   .lista-menu-nav{
+      display: block;
+   }
+
+   .lista-menu-nav li{
+      width: 100%;
+      text-align: center;
+      margin-top: 1%;
+      border-radius: 5px;
+      padding: 2px;
+   }
+   
+
+
+
+
+
+
+   
+   /* ####### HOME ###### */
+   .container-info{
+      flex-direction: column;
+      width: 100%;
+   }
+   
+   .conteudo-texto-info{
+      width: 100%;
+   }
+   
+   .animais{
+      width: 100%;
+   }
+   
+   .animais .container{
+      justify-content: space-around;
+   }
+
+   .card-animais{
+      margin: 1% auto 2%;
+   }
+
+
+
+
+
+
+/* ####### FORM ADOCAO ####### */
+.titulo-P-adocao{
+   margin-bottom: 10%;
+}
+
+.texto-adocao{
+   width: 95%;
+}
+
+.formulario{
+   width: 90%;
+}
+
+
+
+
+
+
+/* ####### PERFIL ANIMAL ####### */
+.conteudo-principal{
+   height: auto;
+}
+
+.perfil .container{
+   flex-direction: column;
+}
+
+.img-perfil{
+   width: 65%;
+}
+
+.conteudo-perfil{
+   width: 90%;
+}
+
+.lista-perfil{
+   columns: 1;
+}
+
+.bt-adote{
+   width: 80%;
+   margin: 3% auto;
+}
+
+
+
+
+
+
+/* ####### SOBRE NOS ####### */
+.titulo-P-redes-sociais{
+   padding-top: 6%;
+}
+
+
+.texto-sobre{
+   width: 100%;
+}
+
+.redes-sociais{
+   height: auto;
+}
+
+.texto-redes-sociais{
+   width: 90%;
+}
+
+
+
+
+
+}
+
