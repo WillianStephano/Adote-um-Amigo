@@ -9,9 +9,9 @@
 ## 📚 Seções
 Projeto de um site de adoção de animais, o projeto é composto por 4 paginas:
 
-- **Pagina inicial:** Contendo informações basicas sobre o funcionamento do site e apresentação dos animais;
+- **Pagina inicial:** Informações basicas sobre o funcionamento do site e apresentação dos animais;
 - **Perfil do animal:** Pagina contendo descrição do animal selecionado e imagens do mesmo;
-- **Formulario de adoção:** Formulario de declaração de intenção a adoção ;
+- **Adoção:**  Nessa pagina há um formulario de inteção de adoção;
 - **Sobre nos:** Pagina contendo informações, redes sociais e localizão sobre o projeto;
 
 
