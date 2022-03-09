@@ -2,9 +2,10 @@
   <br>Pagina inicial Adote um Amigo
 </h1>
 
-<h4 align="center">
-  Criado com o intuito de aprimorar meus conhecimentos nas tecnologias HTML, CSS e JS.
-</h4>
+<p align="center">
+  <a href="https://willianstephano.github.io/Adote-um-Amigo/">
+    <b>🚀Acesse o projeto 🚀</b>
+  </a>
 
 ## 📚 Seções
 Projeto de um site de adoção de animais, o projeto é composto por 4 paginas:
