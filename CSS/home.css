@@ -83,6 +83,13 @@
    border-radius: 6px 6px 0 0;
 }
 
+.card-animais img{
+   background-image: url(../Conteudo/construction-tool.svg);
+   background-size: 40%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
 .card-animais img:hover{
    filter: brightness(1.1);
    transition: 250ms;
