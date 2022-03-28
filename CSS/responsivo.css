@@ -96,6 +96,11 @@
    /* ####### PERFIL ANIMAL ####### */
    .conteudo-principal{
       height: auto;
+      width: 100%;
+   }
+
+   .perfil{
+      width: 100%;
    }
    
    .perfil .container{
@@ -103,8 +108,17 @@
       align-items: center;
    }
    
+   .foto-perfil{
+      width: 100%;
+   }
+
    .img-perfil{
-      width: 65%;
+      width: 80%;
+      height: 340px;
+   }
+
+   .fa-3x{
+      font-size: 2.3em;
    }
    
    .conteudo-perfil{
@@ -155,3 +169,12 @@
    }
 }
 
+@media (max-width:330px) {
+
+   .img-perfil{
+      width: 75%;
+      height: 280px;
+   }
+
+
+}

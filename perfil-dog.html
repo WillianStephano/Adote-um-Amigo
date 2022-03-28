@@ -6,8 +6,8 @@
    <title>Adote um amigo</title>
    <meta name='viewport' content='width=device-width, initial-scale=1'>
    <link rel="shortcut icon" href="Conteudo/pata.svg" type="image/x-icon"> <!-- Adiciona icone ao title -->
-
-
+   
+   
    <!-- LINKS CSS -->
    <link rel='stylesheet' type='text/css' media='screen' href='CSS/reset.css'>
    <link rel="stylesheet" href="CSS/header.css">
@@ -15,11 +15,9 @@
    <link rel="stylesheet" href="CSS/rodape.css">
    <link rel="stylesheet" href="CSS/responsivo.css">
    
-   <!-- JAVASCRIPT -->
-   <script src="Js/teste.js"></script>
-   
    <!-- LINKS FONTES -->
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/64be57a035.js" crossorigin="anonymous"></script>
 </head>
 <body>
    
@@ -33,9 +31,9 @@
          
          <nav class="menu-nav">
             <ul class="lista-menu-nav">
-                <li class="item-menu-nav"> <a href="index.html">Inicio</a></li>
-                <li class="item-menu-nav"> <a href="form-adocao.html">Adoção</a></li>
-                <li class="item-menu-nav"> <a href="sobre-nos.html">Sobre nos</a></li>
+               <li class="item-menu-nav"> <a href="index.html">Inicio</a></li>
+               <li class="item-menu-nav"> <a href="form-adocao.html">Adoção</a></li>
+               <li class="item-menu-nav"> <a href="sobre-nos.html">Sobre nos</a></li>
             </ul>
          </nav>
       </div>   
@@ -47,8 +45,15 @@
       <section class="perfil">
          
          <div class="container">
-            <img class="img-perfil" src="Conteudo/dog B.jpg" alt="">
-            
+            <div class="foto-perfil">
+               <button class="bt-anterior">
+                  <i class="fas fa-chevron-left fa-3x"></i>
+               </button>
+               <img class="img-perfil" src="Conteudo/dog B.jpg" alt="">
+               <button class="bt-proximo">
+                  <i class="fas fa-chevron-right fa-3x"></i>
+               </button>
+            </div>
             <div class="conteudo-perfil">
                
                <h1 class="nome-perfil">Gente boa</h1>
@@ -67,7 +72,7 @@
                   <li>Rouba comida</li>
                   <li>Morde o carteiro</li>
                </ul>
-
+               
                <a href="form-adocao.html">
                   <button class="bt-adote">Adote</button>
                </a>
@@ -79,6 +84,9 @@
    <footer class="rodape">
       <h4 class="texto-rodape"> &copy;Todos os direitos reservados</h4>
    </footer>   
+   
+   <!-- JS -->
+   <script src="Js/teste.js"></script>
    
 </body>
 </html>

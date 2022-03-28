@@ -17,9 +17,23 @@
 }
 
 .img-perfil{
-   width: 35%;
+   width: 420px;
    border-radius: 5px;
    border: 2px solid #dda947;
+   height: 400px;
+   vertical-align: middle;
+}
+
+.bt-proximo, .bt-anterior{
+   background-color: #f7f7f7;
+   border: none;
+   color: #303030;
+}
+
+.bt-proximo:hover,.bt-anterior:hover{
+   cursor: pointer;
+   color: #f9a826;
+   transition: 250ms;
 }
 
 .conteudo-perfil{
